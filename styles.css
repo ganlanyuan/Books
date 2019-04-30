@@ -1,4 +1,7 @@
-body { margin: 0; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 h1 {
   font-size: 40px;
   text-align: center;
