@@ -32,7 +32,7 @@ summary {
 summary:hover {
   background: #f7f7f7;
 }
-[open] > summary { background: hsla(30, 50%, 93%, 0.96); }
+[open] > summary { background: hsla(0, 0%, 93%, 0.96); }
 .s2 {
   top: 3em;
   z-index: 10;
@@ -47,7 +47,7 @@ summary:hover {
   .s2 + .content { padding: 0 2.5em; }
   .s3 + .content { padding: 0 4em; }
 }
-.content { background: #fffcf8; }
+.content { background: hsl(0, 0%, 98%); }
 article {
   /*max-height: calc(100vh - 3rem);*/
   /*overflow: auto;*/
