@@ -95,6 +95,25 @@ cite {
   font-size: 0.7em;
   text-align: right;
 }
+table, th, td {
+  border: 0 solid hsl(200, 0%, 30%);
+}
+table {
+  width: 100%;  
+  border-top-width: 3px;
+  font-size: 0.85em;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+th, td {
+  border-bottom-width: 1px;
+  padding: 0.3em 0.8em;
+  vertical-align: top;
+}
+th {
+  font-weight: normal;
+}
 [class*='quote-'] {
   padding: 1.5em;
 }
