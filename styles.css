@@ -98,8 +98,12 @@ cite {
 table, th, td {
   border: 0 solid hsl(200, 0%, 30%);
 }
+.table-wrap {
+  overflow-x: auto;
+}
 table {
   width: 100%;  
+  min-width: 900px;
   border-top-width: 3px;
   font-size: 0.85em;
   border-collapse: collapse;
@@ -113,6 +117,7 @@ th, td {
 }
 th {
   font-weight: normal;
+  white-space: nowrap;
 }
 [class*='quote-'] {
   padding: 1.5em;
