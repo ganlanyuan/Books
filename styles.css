@@ -14,7 +14,7 @@ h2 {
   margin-top: -20px;
 }
 .main {
-  max-width: 960px;
+  max-width: 51em;
   margin: 0 auto;
 }
 summary {
@@ -49,8 +49,6 @@ summary:hover {
 }
 .content { background: hsl(0, 0%, 98%); }
 article {
-  /*max-height: calc(100vh - 3rem);*/
-  /*overflow: auto;*/
   padding: 1em;
   font-size: 22px;
   font-weight: 200;
@@ -103,9 +101,9 @@ table, th, td {
 }
 table {
   width: 100%;  
-  min-width: 900px;
+  min-width: 48em;
   border-top-width: 3px;
-  font-size: 0.85em;
+  font-size: 16px;
   border-collapse: collapse;
   border-spacing: 0;
   text-align: left;
