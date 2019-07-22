@@ -13,15 +13,16 @@ h2 {
   text-align: center;
   margin-top: -20px;
 }
-.main {
+details {
   max-width: 51em;
   margin: 0 auto;
+  overflow: hidden;
 }
 summary {
-  position: -webkit-sticky;
+  /*position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 100;*/
   padding: 1em;
   font-weight: bold;
   background: hsla(0, 0%, 100%, 0.95);
@@ -152,4 +153,63 @@ th {
   position: relative;
   top: -0.55em;
   color: #ea35a8;
+}
+
+[data-controls] {
+  display: block;
+  padding: 20px 5px;
+  font-size: 0;
+  background: #fff;
+  border: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+@media (max-width: 880px) {
+  [data-controls] { display: none; }
+}
+[data-controls]:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 1px solid hsl(210, 0%, 50%);
+}
+[data-controls][disabled]:before { opacity: 0.6; }
+[data-controls='prev']:before {
+  transform: rotate(45deg) translateX(30%);
+  border-width: 0 0 1px 1px;
+}
+[data-controls='next'] {
+  right: 0;
+}
+[data-controls='next']:before {
+  transform: rotate(45deg) translateX(-30%);
+  border-width: 1px 1px 0 0;
+}
+.tns-nav {
+  padding: 10px;
+  text-align: center;
+  /*background: hsl(0, 0%, 97%);*/
+}
+.tns-nav button {
+  vertical-align: top;
+  margin: 3px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 0;
+  padding: 0.5em;
+  /*background: hsl(0, 0%, 20%);*/
+  background: hsl(0, 0%, 90%);
+  display: none;
+}
+.tns-nav.show button {
+  display: inline-block;
+}
+.tns-nav .menu {
+  display: inline-block;
+  background: hsl(210, 100%, 90%);
+  cursor: pointer;
 }
