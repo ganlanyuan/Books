@@ -166,9 +166,6 @@ th {
   transform: translateY(-50%);
   z-index: 2;
 }
-@media (max-width: 880px) {
-  [data-controls] { display: none; }
-}
 [data-controls]:before {
   content: '';
   display: inline-block;
