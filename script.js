@@ -29,8 +29,6 @@ var slider = tns({
   loop: false,
   autoHeight: true,
   arrowKeys: true,
-  swipeAngle: 30,
-  preventScrollOnTouch: 'force',
   onInit: function (info) {
     var navItems = info.navItems,
         slideItems = info.slideItems,
