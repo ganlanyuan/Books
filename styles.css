@@ -159,7 +159,7 @@ th {
   display: block;
   padding: 20px 5px;
   font-size: 0;
-  background: #fff;
+  background: transparent;
   border: 0;
   position: fixed;
   top: 50%;
