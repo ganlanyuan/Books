@@ -172,9 +172,9 @@ th {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  border: 1px solid hsl(210, 0%, 50%);
+  border: 1px solid hsl(210, 0%, 80%);
 }
-[data-controls][disabled]:before { opacity: 0.6; }
+[data-controls][disabled] { display: none; }
 [data-controls='prev']:before {
   transform: rotate(45deg) translateX(30%);
   border-width: 0 0 1px 1px;
@@ -207,6 +207,6 @@ th {
 }
 .tns-nav .menu {
   display: inline-block;
-  background: hsl(210, 100%, 90%);
+  /*background: hsl(210, 100%, 90%);*/
   cursor: pointer;
 }
