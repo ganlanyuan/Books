@@ -8,5 +8,6 @@
 - [《福音派危机》](https://ganlanyuan.github.io/Books/福音派危机/)  
 - [《罗马书注释》](https://ganlanyuan.github.io/Books/罗马书注释/)  
 - [《进入至圣所》](https://ganlanyuan.github.io/Books/进入至圣所/)  
+- [《中国基督教史纲》](https://ganlanyuan.github.io/Books/中国基督教史纲/)  
 - [《基督教史-上》](https://ganlanyuan.github.io/Books/基督教史-上/)  
 - [《The Holiest of All》](https://ganlanyuan.github.io/Books/The Holiest of All/)  
