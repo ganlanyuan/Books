@@ -173,17 +173,19 @@ th {
   width: 20px;
   height: 20px;
   border: 1px solid hsl(210, 0%, 80%);
+  transform: rotate(45deg);
+  position: relative;
 }
 [data-controls][disabled] { display: none; }
 [data-controls='prev']:before {
-  transform: rotate(45deg) translateX(30%);
+  left: 30%;
   border-width: 0 0 1px 1px;
 }
 [data-controls='next'] {
   right: 0;
 }
 [data-controls='next']:before {
-  transform: rotate(45deg) translateX(-30%);
+  right: 30%;
   border-width: 1px 1px 0 0;
 }
 .tns-nav {
