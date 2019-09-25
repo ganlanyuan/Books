@@ -4,18 +4,26 @@
 var doc = document,
     win = window,
     main = doc.querySelector('.main'),
-    children = main.children;
+    slides = main.children,
+    details = doc.querySelectorAll('details'),
+    ls = localStorage,
+    book_id = doc.querySelector('h1').innerHTML;
 
-for (var l = children.length; l--;) {
-  var child = children[l];
-  child.setAttribute('open', '');
+// open all details
+for (var l = details.length; l--;) {
+  var el = details[l];
+  el.setAttribute('open', '');
+}
+
+for (var l2 = slides.length; l2--;) {
+  var slide = slides[l2];
 
   // Cache the current parent and sibling.
-  var parent = child.parentNode,
-      sibling = child.nextSibling,
+  var parent = slide.parentNode,
+      sibling = slide.nextSibling,
       div = doc.createElement('div');
 
-  div.appendChild(child);
+  div.appendChild(slide);
   if (sibling) {
     parent.insertBefore(div, sibling);
   } else {
@@ -23,25 +31,33 @@ for (var l = children.length; l--;) {
   }
 }
 
-var slider = tns({
-  container: '.main',
-  slideBy: 1,
-  loop: false,
-  autoHeight: true,
-  arrowKeys: true,
-  touch: false,
-  onInit: function (info) {
-    var navItems = info.navItems,
-        slideItems = info.slideItems,
-        navContainer = info.navContainer;
-    for (var i = navItems.length; i--;) {
-      navItems[i].innerHTML = slideItems[i].querySelector('summary').innerHTML.replace(/[&nbsp;]+\=+/, '');
-    }
+var number = ls.getItem(book_id),
+    data_start_index = main.getAttribute('data-start-index'),
+    startI = number ? parseInt(number) : data_start_index ? parseInt(data_start_index) : 0,
+    slider = tns({
+      container: '.main',
+      slideBy: 1,
+      loop: false,
+      autoHeight: true,
+      arrowKeys: true,
+      touch: false,
+      startIndex: startI ? startI : 0,
+      onInit: function (info) {
+        var navItems = info.navItems,
+            slideItems = info.slideItems,
+            navContainer = info.navContainer;
+        for (var i = navItems.length; i--;) {
+          navItems[i].innerHTML = slideItems[i].querySelector('summary').innerHTML.replace(/[&nbsp;]+\=+/, '');
+        }
 
-    navContainer.insertAdjacentHTML('beforeend', '<button class="menu">Menu</button>');
+        navContainer.insertAdjacentHTML('beforeend', '<button class="menu">Menu</button>');
 
-    navContainer.addEventListener('click', function (e) {
-      navContainer.classList.toggle('show');
+        navContainer.addEventListener('click', function (e) {
+          navContainer.classList.toggle('show');
+        });
+      }
     });
-  }
+
+slider.events.on('transitionStart', function(info) {
+  ls.setItem(book_id, info.index);
 });

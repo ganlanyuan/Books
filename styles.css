@@ -18,10 +18,10 @@ details {
   margin: 0 auto;
 }
 summary {
-  /*position: -webkit-sticky;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 100;*/
+  z-index: 100;
   padding: 1em;
   font-weight: bold;
   background: hsla(0, 0%, 100%, 0.95);
@@ -101,7 +101,7 @@ table, th, td {
   overflow-x: auto;
 }
 table {
-  width: 100%;  
+  width: 100%;
   min-width: 48em;
   border-top-width: 3px;
   font-size: 16px;
