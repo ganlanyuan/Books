@@ -13,4 +13,4 @@
 - [《中国基督教史纲》](https://ganlanyuan.github.io/Books/中国基督教史纲/)
 - [《基督教史上》](https://ganlanyuan.github.io/Books/基督教史上/)
 - [《基督教史下》](https://ganlanyuan.github.io/Books/基督教史下/)
-- [《The Holiest of All》](https://ganlanyuan.github.io/Books/The%20Holiest%20of%20All/)
+- [《The Holiest of All》](https://ganlanyuan.github.io/Books/The Holiest of All/)

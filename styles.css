@@ -95,6 +95,7 @@ cite {
   text-align: right;
 }
 table, th, td {
+  font-size: 16px;
   border: 0 solid hsl(200, 0%, 30%);
 }
 .table-wrap {
@@ -102,7 +103,7 @@ table, th, td {
 }
 table {
   width: 100%;
-  min-width: 48em;
+  min-width: 30em;
   border-top-width: 3px;
   border-collapse: collapse;
   border-spacing: 0;
@@ -112,7 +113,6 @@ th, td {
   border-bottom-width: 1px;
   padding: 0.3em 0.8em;
   vertical-align: top;
-  font-size: 16px;
 }
 th {
   font-weight: normal;
