@@ -104,7 +104,6 @@ table {
   width: 100%;
   min-width: 48em;
   border-top-width: 3px;
-  font-size: 16px;
   border-collapse: collapse;
   border-spacing: 0;
   text-align: left;
@@ -113,7 +112,7 @@ th, td {
   border-bottom-width: 1px;
   padding: 0.3em 0.8em;
   vertical-align: top;
-  font-size: inherit;
+  font-size: 16px;
 }
 th {
   font-weight: normal;
