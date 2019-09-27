@@ -113,6 +113,7 @@ th, td {
   border-bottom-width: 1px;
   padding: 0.3em 0.8em;
   vertical-align: top;
+  font-size: inherit;
 }
 th {
   font-weight: normal;
