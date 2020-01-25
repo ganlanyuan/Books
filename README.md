@@ -3,6 +3,7 @@
 - [《基督教释经学手册》](https://ganlanyuan.github.io/Books/基督教释经学手册/)
 - [《21世纪基督教释经学》](https://ganlanyuan.github.io/Books/21世纪基督教释经学/)
 - [《主工人的性格》](https://ganlanyuan.github.io/Books/主工人的性格/)
+- [《直奔标竿》](https://ganlanyuan.github.io/Books/直奔标竿/)
 - [《The Character of God Workman》](https://ganlanyuan.github.io/Books/The Character of God Workman/)
 - [《基督教神学概论》](https://ganlanyuan.github.io/Books/基督教神学概论/)
 - [《保罗—基督的仆人》](https://ganlanyuan.github.io/Books/保罗—基督的仆人/)
