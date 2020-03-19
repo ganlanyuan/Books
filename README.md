@@ -1,5 +1,8 @@
 # Books
 
+- [《福音DNA手册》](https://ganlanyuan.github.io/Books/福音DNA手册/)
+- [《获得植堂异像》](https://ganlanyuan.github.io/Books/获得植堂异像/)
+- [《获得植堂异像》](https://ganlanyuan.github.io/Books/获得植堂异像/)
 - [《基督教释经学手册》](https://ganlanyuan.github.io/Books/基督教释经学手册/)
 - [《21世纪基督教释经学》](https://ganlanyuan.github.io/Books/21世纪基督教释经学/)
 - [《主工人的性格》](https://ganlanyuan.github.io/Books/主工人的性格/)
