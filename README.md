@@ -19,4 +19,5 @@
 - [《中国基督教史纲》](https://ganlanyuan.github.io/Books/中国基督教史纲/)
 - [《基督教史上》](https://ganlanyuan.github.io/Books/基督教史上/)
 - [《基督教史下》](https://ganlanyuan.github.io/Books/基督教史下/)
+- [《传道人的楷模》](https://ganlanyuan.github.io/Books/传道人的楷模/)
 - [《The Holiest of All》](https://ganlanyuan.github.io/Books/The Holiest of All/)
